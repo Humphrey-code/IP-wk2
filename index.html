@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <head>
   <title>Akan Name Generator</title>
-  <link  href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/stylesheets.css" rel="stylesheet" type="text/css">
+  <link  href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <form>
+  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <form>
       <div class="form-group">
-          <label for="firstName">First Name</label>
+          <label for="firstName">First Name</label> <br>
           <input type="firstName" class="form-control" id="First Name" placeholder="First Name">
-      </div>
+      </div> <br>
       <div class="form-group">
-          <label for="lastName">Last Name</label>
+          <label for="lastName">Last Name</label> <br>
           <input type="lastName" class="form-control" id="Last Name" placeholder="Last Name">
+      </div> <br>
+      <div class="form-check">
+          <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Male</label><br>
       </div>
       <div class="form-check">
           <label class="form-check-label">
-          <input type="checkbox" class="form-check-input" value="">Male</label>
-      </div>
-      <div class="form-check">
-          <label class="form-check-label">
-          <input type="checkbox" class="form-check-input" value="">Female</label>
-      </div>
+          <input type="checkbox" class="form-check-input" value="">Female</label><br>
+      </div><br>
       <div class="form-group">
-          <label for="DOB">Date of Birth</label>
-          <input type="Date of Birth" class="form-control" id="Date of Birth" placeholder="Date of Birth">
-      </div>
+          <label for="DOB">Date of Birth</label><br>
+          <input type="Date of Birth" class="form-control" id="Date of Birth" placeholder="Date of Birth"><br>
+      </div><br>
       <div class="form-group">
-          <label for="MOB">Month of Birth</label>
+          <label for="MOB">Month of Birth</label><br>
           <input type="Month of Birth" class="form-control" id="Month of Birth" placeholder="Month of Birth">
-      </div>
-    <div class="form-group">
-          <label for="YOB">Year of Birth</label>
-          <input type="Year of Birth" class="form-control" id="Year of Birth" placeholder="Year of Birth">
+      </div><br>
       <div class="form-group">
+          <label for="YOB">Year of Birth</label><br>
+          <input type="Year of Birth" class="form-control" id="Year of Birth" placeholder="Year of Birth">
+      <div class="form-group"> <br>
       <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+      </div>
+    </form>
+  </nav>
 </body>
