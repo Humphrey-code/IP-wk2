@@ -4,4 +4,6 @@ body{
   padding: 0
   margin: 0;
   font-family: sans-serif;
+  background: url("Images/proj2.jpg");no-repeat;
+  background-size: cover;
 }
