@@ -1,9 +1,42 @@
-.formInput{width:100px; height: 300px; float: center;
+
 }
-body{
+body {
   padding: 0
   margin: 0;
   font-family: sans-serif;
-  background: url("Images/proj2.jpg");no-repeat;
+  background-image: url(Images/proj2.gif);
+  background-repeat: no-repeat;
   background-size: cover;
+}
+.brief_Des {
+  width: 300px
+  position: absolute;
+  left: 50%
+  top : 50%
+  transform: translate(-50%,-50%);
+  color: white
+  padding: 15px
+}
+.fname {
+background-color: grey
+float: right;
+font-size: 40px;
+border-bottom: 10px; solid
+padding: 50px
+}
+.lname {
+  padding: 50px
+  border-bottom: 10px
+}
+
+.gender{
+
+}
+
+.date{
+
+}
+
+.submit{
+  
 }
