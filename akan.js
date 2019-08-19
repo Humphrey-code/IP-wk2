@@ -23,47 +23,48 @@ function myFunction() {
   var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var females=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
+
   if (genderPicked == "Male" && myMeme == 0){
-  alert(males[0]);
+  alert("Your Akan name is ".concat(males[0]));
   }
   else if(genderPicked == "Male" && myMeme == 1){
-  alert(males[1]);
+  alert("Your Akan name is ".concat(males[1]));
   }
   else if(genderPicked == "Male" && myMeme == 2){
-  alert(males[2]);
+  alert("Your Akan name is ".concat(males[2]));
   }
   else if(genderPicked == "Male" && myMeme == 3){
-  alert(males[3]);
+  alert("Your Akan name is ".concat(males[3]));
   }
   else if(genderPicked == "Male" && myMeme ==4){
-  alert(males[4]);
+  alert("Your Akan name is ".concat(males[4]));
   }
   else if(genderPicked == "Male" && myMeme ==5){
-  alert(males[5]);
+  alert("Your Akan name is ".concat(males[5]));
   }
   else if(genderPicked == "Male" && myMeme ==6){
-  alert(males[6]);
+  alert("Your Akan name is ".concat(males[6]));
   }
   else if(genderPicked == "Female" && myMeme ==0){
-  alert(females[0]);
+  alert("Your Akan name is ".concat(females[0]));
   }
   else if(genderPicked == "Female" && myMeme ==1){
-  alert(females[1]);
+  alert("Your Akan name is ".concat(females[1]));
   }
   else if(genderPicked == "Female" && myMeme ==2){
-  alert(females[2]);
+  alert("Your Akan name is ".concat(females[2]));
   }
   else if(genderPicked == "Female" && myMeme ==3){
-  alert(females[3]);
+  alert("Your Akan name is ".concat(females[3]));
   }
   else if(genderPicked == "Female" && myMeme ==4){
-  alert(females[4]);
+  alert("Your Akan name is ".concat(females[4]));
   }
   else if(genderPicked == "Female" && myMeme ==6){
-  alert(females[5]);
+  alert("Your Akan name is ".concat(females[5]));
   }
   else if (genderPicked == "Female" && myMeme ==6){
-  alert(females[6]);
+  alert("Your Akan name is ".concat(females[6]));
   }
   else{
   alert("null");
