@@ -5,8 +5,8 @@ function myFunction() {
   var mm = Number(document.getElementById('monthofBirth').value);
   var dd = Number(document.getElementById('dateofBirth').value);
 
-    var d =((((cc/4)-2*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)+1;
-  var myMeme= Math.round(d)
+  var d =( ( ( ( cc / 4) - 2 * cc - 1) + ( ( 5 * yy / 4) ) + ( ( 26 * (mm + 1) / 10)) + dd) % 7)+1;
+  var myMeme= Math.round(d);
 
   var Gender = document.getElementsByClassName('Gender');
 
@@ -20,8 +20,8 @@ function myFunction() {
 
   let genderPicked = whatGender();
 
-  var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
-  var females=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
+  var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+  var females=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
   if (genderPicked == "Male" && myMeme == 0){
   alert(males[0]);
