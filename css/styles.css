@@ -1,47 +1,12 @@
 
-}
 body {
   padding: 0
   margin: 0;
   font-family: sans-serif;
-  background-image: url("../Images/proj2.gif");
+  background-image: url("../Images/proj11.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-.brief_Des {
-  width: 300px
   position: absolute;
-  left: 50%
-  top : 50%
-  transform: translate(-50%,-50%);
-  color: white
-  padding: 15px
-}
-.fname {
-background-color: grey
-float: right;
-font-size: 40px;
-border-bottom: 10px; solid
-padding: 50px
-}
-.lname {
-  padding: 50px
-  border-bottom: 10px
-}
-
-.gender{
-
-}
-
-.date{
-
-}
-
-.submit{
-
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  top: 50%;
+  left: 50%;
 }
