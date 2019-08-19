@@ -3,6 +3,7 @@
     <title>Akan Name Generator</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css"
+    <script src="js/akan.js"></script>
   </head>
   <body>
     <div class="container">
@@ -15,13 +16,13 @@
   <form class="" action="" method="">
     <input type="text" id="fname" placeholder="Enter your First Name">
     <input type="text" id="lname" placeholder="Enter your Last Name"><br><br>
-    <input type="number" id="yearofBirth" placeholder="Enter your Year of Birth">
-    <input type="number" id="monthofBirth" placeholder="Enter your Month of Birth">
-    <input type="number" id="yearofBirth" placeholder="Enter your Date of Birth"><br><br>
+    <input type="number" id="yearofBirth" min="1800" max="2019" placeholder="Enter your Year of Birth">
+    <input type="number" id="monthofBirth" min="01" max="12" placeholder="Enter your Month of Birth">
+    <input type="number" id="dateofBirth" min="01" max="31" placeholder="Enter your Date of Birth"><br><br>
     <p>Choose your Gender</p>
-    <input type="radio" id="Gender" value="Male">Male<br>
-    <input type="radio" id="Gender" value="Female">Female
-    <input type="submit" id="Submit" placeholder="Submit"
+    <input type="radio" id="Gender" value="Male">Male
+    <input type="radio" id="Gender" value="Female">Female<br><br>
+    <input type="submit" id="Submit" placeholder="Submit">
     </select>
   </div>
 </div>
